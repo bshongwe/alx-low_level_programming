@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - check value of n status: zero, positive, or negative
+ * main - check value of n status: zero, positive or negative
  * Return: Always 0 (Success)
  */
 int main(void)
