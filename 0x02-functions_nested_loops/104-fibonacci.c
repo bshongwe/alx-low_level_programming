@@ -8,18 +8,18 @@
 int numLength(int num)
 {
 	int length = 0;
-	
+
 	if (!num)
 	{
 		return (1);
 	}
-	
+
 	while (num)
 	{
 		num = num / 10;
 		length += 1;
 	}
-	
+
 	return (length);
 }
 
@@ -31,13 +31,13 @@ int main(void)
 {
 	unsigned long f1 = 1, f2 = 2, tmp, mx = 100000000, f1o = 0, f2o = 0, tmpo = 0;
 	short int i = 1, initial0s;
-	
+
 	while (i <= 98)
 	{
 		if (f1o > 0)
 			printf("%lu", f1o);
 		initial0s = numLength(mx) - 1 - numLength(f1);
-	
+
 		while (f1o > 0 && initial0s > 0)
 		{
 			printf("%i", 0);
