@@ -2,17 +2,19 @@
 
 /**
  * main - print _putchar
+ *
  * Return: zero
  */
 int main(void)
 {
-    char str[] = "_putchar";
-    int ch;
+	char str[] = "_putchar";
 
-    for (ch = 0; ch < 8; ++ch)
-        _putchar(str[ch]);
+	while (*str)
+	{
+		_putchar(*str);
+		str++;
+	}
+	_putchar('\n');
 
-    _putchar('\n');
-
-    return (0);
+	return (0);
 }
