@@ -1,48 +1,48 @@
 #include "main.h"
 
 /**
- * print_times_table - print n times table
- * @n: integer
+ * print_digit - Print a two-digit number or a single digit with leading zeros
+ *
+ * @num: Integer, the number to be printed
+ */
+void print_digit(int num)
+{
+	if (num < 10)
+	{
+		_putchar(' ');
+		_putchar('0' + num);
+	}
+	else
+	{
+		_putchar('0' + (num / 10));
+		_putchar('0' + (num % 10));
+	}
+}
+
+/**
+ * print_times_table - Print the times table up to a given number
+ *
+ * @n: Integer, the upper bound for the times table (0 to 15)
  */
 void print_times_table(int n)
 {
-	int i, j, k;
-	
-	if (n >= 0 && n <= 15)
+	if (n < 0 || n > 15)
+		return;
+
+	int i, j, result;
+
+	for (i = 0; i <= n; i++)
 	{
-		for (i = 0; i <= n; i++)
+		_putchar('0');
+
+		for (j = 1; j <= n; j++)
 		{
-			for (j = 0; j <= n; j++)
-			{
-				k = j * i;
-				if (j == 0)
-				{
-					_putchar('0');
-				}
-				else if (k < 10)
-				{
-					_putchar(',');
-					_putchar(' ');
-					_putchar(' ');
-					_putchar(' ');
-					_putchar(k + '0');
-				} else if (k >= 10 && k < 100)
-				{
-					_putchar(',');
-					_putchar(' ');
-					_putchar(' ');
-					_putchar((k / 10) + '0');
-					_putchar((k % 10) + '0');
-				} else if (k >= 100)
-				{
-					_putchar(',');
-					_putchar(' ');
-					_putchar((k / 100) + '0');
-					_putchar(((k / 10) % 10) + '0');
-					_putchar((k % 10) + '0');
-				}
-			}
-			_putchar('\n');
+			result = i * j;
+			_putchar(',');
+			_putchar(' ');
+			print_digit(result);
 		}
+
+		_putchar('\n');
 	}
 }
