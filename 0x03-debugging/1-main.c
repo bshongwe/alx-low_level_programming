@@ -2,8 +2,9 @@
 
 /**
  * main - run an infinite loop
- * Return: 0 Always (Success)
+ * Return: 0
  */
+
 int main(void)
 {
 	int i;
