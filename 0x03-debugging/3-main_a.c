@@ -13,7 +13,7 @@ int main(void)
 	int day;
 	int year;
 
-	month 4;
+	month = 4;
 	day = 1;
 	year = 1997;
 
