@@ -23,19 +23,6 @@ Write a function that prints the alphabet, in lowercase, followed by a new line.
     Prototype: void print_alphabet(void);
     You can only use _putchar twice in your code
 
-<code>julien@ubuntu:~/0x02$ cat 1-main.c
-#include "main.h"
-/**
-* main - check the code
-*
-* Return: Always 0.
-* /
-int main(void)
-{
-    print_alphabet();
-    return (0);
-}</code>
-
 Compile:
 <code>julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 1-main.c 1-alphabet.c -o 1-alphabet</code>
 
@@ -58,20 +45,6 @@ Write a function that prints 10 times the alphabet, in lowercase, followed by a 
 
     Prototype: void print_alphabet_x10(void);
     You can only use _putchar twice in your code
-
-<code>julien@ubuntu:~/0x02$ cat 2-main.c
-#include "main.h"
-
-/**
- * main - check the code.
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    print_alphabet_x10();
-    return (0);
-}</code>
 
 Compile:
 <code>julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 2-main.c 2-print_alphabet_x10.c -o 2-alphabet_x10</code>
@@ -97,28 +70,6 @@ Write a function that checks for lowercase character.
     Returns 0 otherwise
     FYI: The standard library provides a similar function: islower. Run man islower to learn more.
 
-<code>julien@ubuntu:~/0x02$ cat 3-main.c 
-#include "main.h"
-
-/**
- * main - check the code.
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    int r;
-
-    r = _islower('H');
-    _putchar(r + '0');
-    r = _islower('o');
-    _putchar(r + '0');
-    r = _islower(108);
-    _putchar(r + '0');
-    _putchar('\n');
-    return (0);
-}</code>
-
 Compile:
 <code>julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 3-main.c 3-islower.c -o 3-islower</code>
 
@@ -142,30 +93,6 @@ Write a function that checks for alphabetic character.
     Returns 1 if c is a letter, lowercase or uppercase
     Returns 0 otherwise
     FYI: The standard library provides a similar function: isalpha. Run man isalpha to learn more.
-
-<code>julien@ubuntu:~/0x02$ cat 4-main.c 
-#include "main.h"
-
-/**
- * main - check the code.
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    int r;
-
-    r = _isalpha('H');
-    _putchar(r + '0');
-    r = _isalpha('o');
-    _putchar(r + '0');
-    r = _isalpha(108);
-    _putchar(r + '0');
-    r = _isalpha(';');
-    _putchar(r + '0');
-    _putchar('\n');
-    return (0);
-}</code>
 
 Compile:
 <code>julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 4-main.c 4-isalpha.c -o 4-isalpha</code>
@@ -191,41 +118,6 @@ Write a function that prints the sign of a number.
     Returns 0 and prints 0 if n is zero
     Returns -1 and prints - if n is less than zero
 
-<code>julien@ubuntu:~/0x02$ cat 5-main.c
-#include "main.h"
-
-/**
- * main - check the code.
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    int r;
-
-    r = print_sign(98);
-    _putchar(',');
-    _putchar(' ');
-    _putchar(r + '0');
-    _putchar('\n');
-    r = print_sign(0);
-    _putchar(',');
-    _putchar(' ');
-    _putchar(r + '0');
-    _putchar('\n');
-    r = print_sign(0xff);
-    _putchar(',');
-    _putchar(' ');
-    _putchar(r + '0');
-    _putchar('\n');
-    r = print_sign(-1);
-    _putchar(',');
-    _putchar(' ');
-    _putchar(r + '0');
-    _putchar('\n');
-    return (0);
-}</code>
-
 Compile:
 <code>julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 5-main.c 5-sign.c -o 5-sign</code>
 
@@ -247,30 +139,6 @@ Write a function that computes the absolute value of an integer.
 
     Prototype: int _abs(int);
     FYI: The standard library provides a similar function: abs. Run man abs to learn more.
-
-<code>julien@ubuntu:~/0x02$ cat 6-main.c
-#include "main.h"
-#include <stdio.h>
-
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    int r;
-
-    r = _abs(-1);
-    printf("%d\n", r);
-    r = _abs(0);
-    printf("%d\n", r);
-    r = _abs(1);
-    printf("%d\n", r);
-    r = _abs(-98);
-    printf("%d\n", r);
-    return (0);
-}</code>
 
 Compile:
 <code>julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 6-main.c 6-abs.c -o 6-abs</code>
@@ -294,26 +162,6 @@ Write a function that prints the last digit of a number.
     Prototype: int print_last_digit(int);
     Returns the value of the last digit
 
-<code>julien@ubuntu:~/0x02$ cat 7-main.c
-#include "main.h"
-
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    int r;
-
-    print_last_digit(98);
-    print_last_digit(0);
-    r = print_last_digit(-1024);
-    _putchar('0' + r);
-    _putchar('\n');
-    return (0);
-}</code>
-
 Compile:
 julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 7-main.c 7-print_last_digit.c -o 7-last_digit</code>
 
@@ -336,26 +184,6 @@ Write a function that prints every minute of the day of Jack Bauer, starting fro
     Prototype: void jack_bauer(void);
     You can listen to this soundtrack while coding :)
 
-<code>julien@ubuntu:~/0x02$ cat 8-main.c
-#include "main.h"
-
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    jack_bauer();
-    return (0);
-}</code>
-
-Compile:
-<code>julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 8-main.c 8-24_hours.c -o 8-24</code>
-
-Check output:
-<code>julien@ubuntu:~/0x02$ ./8-24 | head</code>
-
 Repo:
 
     GitHub repository: alx-low_level_programming
@@ -371,20 +199,6 @@ Write a function that prints the 9 times table, starting with 0.
 
     Prototype: void times_table(void);
     Format: see example
-
-<code>julien@ubuntu:~/0x02$ cat 9-main.c
-#include "main.h"
-
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    times_table();
-    return (0);
-}</code>
 
 Compile:
 <code>julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 9-main.c 9-times_table.c -o 9-times_table</code>
@@ -405,24 +219,6 @@ Repo:
 Write a function that adds two integers and returns the result.
 
     Prototype: int add(int, int);
-
-<code>julien@ubuntu:~/$ cat 10-main.c
-#include "main.h"
-#include <stdio.h>
-
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    int n;
-
-    n = add(89, 9);
-    printf("%d\n", n);
-    return (0);
-}</code>
 
 Comipile:
 <code>julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 10-main.c 10-add.c -o 10-add</code>
@@ -450,24 +246,6 @@ Write a function that prints all natural numbers from n to 98, followed by a new
     The last printed number should be 98
     You are allowed to use the standard library
 
-<code>julien@ubuntu:~/0x02$ cat 11-main.c
-#include "main.h"
-
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    print_to_98(0);
-    print_to_98(98);
-    print_to_98(111);
-    print_to_98(81);
-    print_to_98(-10);
-    return (0);
-}</code>
-
 Compile:
 <code>julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 11-main.c 11-print_to_98.c -o 11-98</code>
 
@@ -491,26 +269,6 @@ Write a function that prints the n times table, starting with 0.
     Prototype: void print_times_table(int n);
     If n is greater than 15 or less than 0 the function should not print anything
     Format: see example
-
-<code>julien@ubuntu:~/0x02$ cat 100-main.c
-#include "main.h"
-
-/**
- * main - check the code.
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    print_times_table(3);
-    _putchar('\n');
-    print_times_table(5);
-    _putchar('\n');
-    print_times_table(98);
-    _putchar('\n');
-    print_times_table(12);  
-    return (0);
-}</code>
 
 Compile:
 <code>julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 100-main.c 100-times_table.c -o 100-times_table</code>
