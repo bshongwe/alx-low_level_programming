@@ -6,7 +6,7 @@
  * @b: second value pointer
  * Return: Always 0 (Success)
  */
-voint swap_int(int *a, int *b)
+void swap_int(int *a, int *b)
 {
 	int c;
 
