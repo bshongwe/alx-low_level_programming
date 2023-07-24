@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * put2 - prints a string
+ * puts2 - prints a string
  * @str: pointer to the string to print
  * Return: void
  */
-void put2(char *str)
+void puts2(char *str)
 {
 	int i;
 
