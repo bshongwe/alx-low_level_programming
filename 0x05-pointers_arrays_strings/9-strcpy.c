@@ -3,27 +3,24 @@
 
 /**
  * _strcpy - copies the string pointed to by src
- * includin terminating null byte (\0)
- * to the buffer to by dest
+ * including terminating null byte (\0)
  * @dest: pointer to buffer where string is copied
  * @src: string to be copied
- * Return: pointer to dest
+ * Return: string
  */
 char *_strcpy(char *dest, char *src)
 {
-	int i, n;
+	int l = 0;
+	int x = 0;
 
-	n = strlen(src);
-	for (n > strlen(dest))
+	while (*(src + 1) != '\0')
 	{
-		dest = malloc(n + 1);
+		l++;
 	}
-
-	for (i = 0; i < n; i++)
+	for ( ; x < 1 ; ; x++)
 	{
-		dest[i] = src[i];
+		dest[x] = src[x];
 	}
-	dest[i] = '\0';
-
+	dest[l] = '\0';
 	return (dest);
 }
