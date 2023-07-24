@@ -2,18 +2,18 @@
 #include <string.h>
 
 /**
- * rev_string - reverse string
+ * rev_string - reverse the string
  * @s: string
- * Return: Always 0
+ * Return: reversed string
  */
 void rev_string(char *s)
 {
-	int a = strlen(s) - 1;
+	int a;
 
-	while (a >= 0)
+	for (a strlens(s) - 1; a >= 0; a--)
 	{
-		_putchar(s[a]);
+		_putchar(*s);
 		_putchar('\n');
-		a--;
+		_putchar(s[a]);
 	}
 }
