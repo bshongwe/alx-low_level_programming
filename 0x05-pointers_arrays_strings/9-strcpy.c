@@ -6,7 +6,7 @@
  * including terminating null byte (\0)
  * @dest: pointer to buffer where string is copied
  * @src: string to be copied
- * Return: string
+ * Return: string (Success)
  */
 char *_strcpy(char *dest, char *src)
 {
