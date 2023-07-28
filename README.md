@@ -57,10 +57,18 @@ for argument in "$@" ; do
     echo -e "\n========== $argument =========="
     ${BIN_PATH}/${BETTY_STYLE} "$argument"
     ${BIN_PATH}/${BETTY_DOC} "$argument"
-done
-</code>
+done</code>
 
 Once saved, exit file and change permissions to apply to all users with chmod a+x betty
 Move the betty file into /bin/ directory or somewhere else in your $PATH with sudo mv betty /bin/
 You can now type betty <filename> to run the Betty linter!
+
+## Projects:
+    0x00-hello_world
+    0x01-variables_if_else_while
+    0x02-functions_nested_loops
+    0x03-debugging
+    0x04-more_functions_nested_loops
+    0x05-pointers_arrays_strings
+    0x06-pointers_arrays_string
 
