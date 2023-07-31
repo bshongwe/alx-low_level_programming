@@ -4,17 +4,24 @@
  * _strstr - locate substring
  * @haystack: input string
  * @needle: substring
- * Return: pointer to beginning of substring
+ * Return: pointer to beginning of substring (Success)
  */
 char *_strstr(char *haystack, char *needle)
 {
-	while (*haystack != '\0')
+	for (; *haystack != '\0'; haystack++)
 	{
-		if (*haystack == *needle)
+		char *a = haystack;
+		char *b = needle;
+
+		while (*a == *b && *b != '\0')
 		{
-			break;
+			a++;
+			b++;
 		}
-		haystack++;
+
+		if (*b == '\0')
+			return (haystack);
 	}
-	return (haystack);
+
+	return (0);
 }
