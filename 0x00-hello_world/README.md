@@ -67,7 +67,8 @@ Write a C program that prints exactly "Programming is like building a multilingu
       Your program should end with the value 0
 
 Compile:
-<code>julien@ubuntu:~/c/0x00$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 4-puts.c && ./a.out</code>
+
+      julien@ubuntu:~/c/0x00$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 4-puts.c && ./a.out
 
 Repo:
 
