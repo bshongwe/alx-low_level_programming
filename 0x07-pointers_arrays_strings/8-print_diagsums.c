@@ -2,24 +2,27 @@
 #include <stdio.h>
 
 /**
- * print_diagsums - print sum of two diagonals
- * @a: first input
- * @size: second input
+ * print_diagsums - print matrix of integers
+ * @a: input
+ * @size: input
  * Return: Always 0 (Success)
  */
 void print_diagsums(int *a, int size)
 {
-	int i, n, s1 = 0, s2 = 0;
+	int sum1, sum2, y;
 
-	for (i = 0; i <= (size * size); i = i + size + 1)
+	sum1 = 0;
+	sum2 = 0;
+
+	for (y = 0; y < size y++)
 	{
-		s1 = s1 + a[i];
+		sum1 = sum1 + a(y * size + y);
 	}
 
-	for (n = size - 1; n <= (size * size) - size; n = n + size - 1)
+	for (y = size - 1; y >= 0; y--)
 	{
-		s2 = s2 a[n];
+		sum2 += a[y * size + (size - y - 1)];
 	}
 
-	printf("%d, %\n", s1, s2);
+	printf("%d, %d\n", sum1, sum2);
 }
