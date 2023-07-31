@@ -8,10 +8,12 @@ Write a function that takes a pointer to an int as parameter and updates the val
     Prototype: void reset_to_98(int *n);
 
 Compile:
-<code>julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-reset_to_98.c -o 0-98</code>
+
+    julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-reset_to_98.c -o 0-98
 
 Check printout:
-<code>julien@ubuntu:~/0x05$ ./0-98</code>
+
+    julien@ubuntu:~/0x05$ ./0-98
 
 Repo:
 
@@ -27,10 +29,12 @@ Write a function that swaps the values of two integers.
     Prototype: void swap_int(int *a, int *b);
 
 Compile:
-<code>julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-swap.c -o 1-swap</code>
+
+    julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-swap.c -o 1-swap
 
 Check printout:
-<code>julien@ubuntu:~/0x05$ ./1-swap</code>
+
+    julien@ubuntu:~/0x05$ ./1-swap
 
 Repo:
 
@@ -47,10 +51,12 @@ Write a function that returns the length of a string.
 FYI: The standard library provides a similar function: strlen. Run man strlen to learn more.
 
 Compile:
-<code>julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-strlen.c -o 2-strlen</code>
+
+    julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-strlen.c -o 2-strlen
 
 Check printout:
-<code>julien@ubuntu:~/0x05$ ./2-strlen</code>
+
+    julien@ubuntu:~/0x05$ ./2-strlen
 
 Repo:
 
@@ -67,10 +73,12 @@ Write a function that prints a string, followed by a new line, to stdout.
 FYI: The standard library provides a similar function: puts. Run man puts to learn more.
 
 Compile:
-<code>julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 3-main.c 3-puts.c -o 3-puts</code>
+
+    julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 3-main.c 3-puts.c -o 3-puts
 
 Check printout:
-<code>julien@ubuntu:~/0x05$ ./3-puts</code>
+
+    julien@ubuntu:~/0x05$ ./3-puts
 
 Repo:
 
@@ -86,10 +94,12 @@ Write a function that prints a string, in reverse, followed by a new line.
     Prototype: void print_rev(char *s);
 
 Compile:
-<code>julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 4-main.c 4-print_rev.c -o 4-print_rev</code>
+
+    julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 4-main.c 4-print_rev.c -o 4-print_rev
 
 Check printout:
-<code>julien@ubuntu:~/0x05$ ./4-print_rev</code>
+
+    julien@ubuntu:~/0x05$ ./4-print_rev
 
 Repo:
 
@@ -105,10 +115,12 @@ Write a function that reverses a string.
     Prototype: void rev_string(char *s);
 
 Compile:
-<code>julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-main.c 5-rev_string.c -o 5-rev_string</code>
+
+    julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-main.c 5-rev_string.c -o 5-rev_string
 
 Check printout:
-<code>julien@ubuntu:~/0x05$ ./5-rev_string</code>
+
+    julien@ubuntu:~/0x05$ ./5-rev_string
  
 Repo:
 
@@ -124,10 +136,12 @@ Write a function that prints every other character of a string, starting with th
     Prototype: void puts2(char *str);
 
 Compile:
-<code>julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 6-main.c 6-puts2.c -o 6-puts2</code>
+
+    julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 6-main.c 6-puts2.c -o 6-puts2
 
 Check printout:
-<code>julien@ubuntu:~/0x05$ ./6-puts2</code>
+
+    julien@ubuntu:~/0x05$ ./6-puts2
 
 Repo:
 
@@ -145,10 +159,12 @@ Write a function that prints half of a string, followed by a new line.
     If the number of characters is odd, the function should print the last n characters of the string, where n = (length_of_the_string - 1) / 2
 
 Compile:
-<code>julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 7-main.c 7-puts_half.c -o 7-puts_half</code>
+
+    julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 7-main.c 7-puts_half.c -o 7-puts_half
 
 Check printout:
-<code>julien@ubuntu:~/0x05$ ./7-puts_half</code>
+
+    julien@ubuntu:~/0x05$ ./7-puts_half
 
 Repo:
 
@@ -168,10 +184,12 @@ Write a function that prints n elements of an array of integers, followed by a n
     You are allowed to use printf
 
 Compile:
-<code>julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 8-main.c 8-print_array.c -o 8-print_array</code>
+
+    julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 8-main.c 8-print_array.c -o 8-print_array
 
 Check printout:
-<code>julien@ubuntu:~/0x05$ ./8-print_array</code>
+
+    julien@ubuntu:~/0x05$ ./8-print_array
 
 Repo:
 
@@ -189,10 +207,12 @@ Write a function that copies the string pointed to by src, including the termina
 FYI: The standard library provides a similar function: strcpy. Run man strcpy to learn more.
 
 Compile:
-<code>julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 9-main.c 9-strcpy.c -o 9-strcpy</code>
+
+    julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 9-main.c 9-strcpy.c -o 9-strcpy
 
 Check printout:
-<code>julien@ubuntu:~/0x05$ ./9-strcpy</code>
+
+    julien@ubuntu:~/0x05$ ./9-strcpy
  
 Repo:
 
@@ -216,10 +236,12 @@ Write a function that convert a string to an integer.
 FYI: The standard library provides a similar function: atoi. Run man atoi to learn more.
 
 Compile:
-<code>julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 -fsanitize=signed-integer-overflow 100-main.c 100-atoi.c -o 100-atoi</code>
+
+    julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 -fsanitize=signed-integer-overflow 100-main.c 100-atoi.c -o 100-atoi
 
 Check printout:
-<code>julien@ubuntu:~/0x05$ ./100-atoi</code>
+
+    julien@ubuntu:~/0x05$ ./100-atoi
 
 Repo:
 
@@ -242,3 +264,5 @@ Repo:
     GitHub repository: alx-low_level_programming
     Directory: 0x05-pointers_arrays_strings
     File: 101-keygen.c
+
+
