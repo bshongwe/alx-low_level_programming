@@ -71,4 +71,5 @@ You can now type betty <filename> to run the Betty linter!
     0x04-more_functions_nested_loops
     0x05-pointers_arrays_strings
     0x06-pointers_arrays_string
+    0x07. C - Even more pointers, arrays and strings
 
