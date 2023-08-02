@@ -6,7 +6,7 @@
  * @s: input string
  * Return: Always 0 (Success)
  */
-int is_palindrome(char *s);
+int is_palindrome(char *s)
 {
 	int a, b;
 
