@@ -39,6 +39,5 @@ int is_prime_number(int n)
 	{
 		return (0);
 	}
-	else
-		return (is_prime_number(n, 2));
+	return (is_prime_number(n, 2));
 }
