@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * is_prime_number - check if n is prime number
+ * actual_is_prime_number - check if n is prime number
  * @n: input n
  * @a: input iterator
  * Return: 1 (n is prime number), 0 (n is not prime number)
  */
-int is_prime_number(unsigned int n, unsigned int a)
+int actual_is_prime_number(unsigned int n, unsigned int a)
 {
 	if (n % a == 0)
 	{
