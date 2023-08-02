@@ -10,6 +10,6 @@ int _pow_recursion(int x, int y);
 int _sqrt_recursion(int n);
 int actual_sqrt_recursion(int n, int i);
 int is_prime_number(int n);
-int actual_is_prime_number(unsigned int n, unsigned int a);
+int actual_prime(int n, int a);
 
 #endif /* MAIN_H */
