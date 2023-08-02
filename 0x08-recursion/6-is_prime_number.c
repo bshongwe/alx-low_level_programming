@@ -17,7 +17,7 @@ int actual_is_prime_number(unsigned int n, unsigned int a)
 		else
 			return (0);
 	}
-	return  (0 + actual_is_prime_number(n, a + 1));
+	return (0 + actual_is_prime_number(n, a + 1));
 }
 
 /**
