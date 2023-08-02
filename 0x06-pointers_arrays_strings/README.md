@@ -178,7 +178,8 @@ Add one line to this code, so that the program prints a[2] = 98, followed by a n
     You are allowed to use the standard library
 
 I had to compile the file for the code checker tests to pass:
-<code>gcc 102-magic -o 102-magic</code>
+
+    gcc 102-magic -o 102-magic
 
 Repo:
 

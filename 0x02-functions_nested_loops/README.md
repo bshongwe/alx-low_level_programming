@@ -24,11 +24,13 @@ Write a function that prints the alphabet, in lowercase, followed by a new line.
     You can only use _putchar twice in your code
 
 Compile:
-<code>julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 1-main.c 1-alphabet.c -o 1-alphabet</code>
+
+    julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 1-main.c 1-alphabet.c -o 1-alphabet
 
 
 Check output:
-<code>julien@ubuntu:~/0x02$ ./1-alphabet</code>
+
+    julien@ubuntu:~/0x02$ ./1-alphabet
 
 Repo:
 
@@ -47,10 +49,12 @@ Write a function that prints 10 times the alphabet, in lowercase, followed by a 
     You can only use _putchar twice in your code
 
 Compile:
-<code>julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 2-main.c 2-print_alphabet_x10.c -o 2-alphabet_x10</code>
+
+    julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 2-main.c 2-print_alphabet_x10.c -o 2-alphabet_x10
 
 Checkout output:
-<code>julien@ubuntu:~/0x02$ ./2-alphabet_x10</code>
+
+    julien@ubuntu:~/0x02$ ./2-alphabet_x10
 
 Repo:
 
@@ -71,10 +75,12 @@ Write a function that checks for lowercase character.
     FYI: The standard library provides a similar function: islower. Run man islower to learn more.
 
 Compile:
-<code>julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 3-main.c 3-islower.c -o 3-islower</code>
+
+    julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 3-main.c 3-islower.c -o 3-islower
 
 Check output:
-<code>julien@ubuntu:~/0x02$ ./3-islower</code>
+
+    julien@ubuntu:~/0x02$ ./3-islower
 
 Repo:
 
@@ -95,10 +101,12 @@ Write a function that checks for alphabetic character.
     FYI: The standard library provides a similar function: isalpha. Run man isalpha to learn more.
 
 Compile:
-<code>julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 4-main.c 4-isalpha.c -o 4-isalpha</code>
+
+    julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 4-main.c 4-isalpha.c -o 4-isalpha
 
 Check output:
-<code>julien@ubuntu:~/0x02$ ./4-isalpha</code>
+
+    julien@ubuntu:~/0x02$ ./4-isalpha
 
 Repo:
 
@@ -119,10 +127,12 @@ Write a function that prints the sign of a number.
     Returns -1 and prints - if n is less than zero
 
 Compile:
-<code>julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 5-main.c 5-sign.c -o 5-sign</code>
+
+    julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 5-main.c 5-sign.c -o 5-sign
 
 Check output:
-<code>julien@ubuntu:~/0x02$ ./5-sign</code>
+
+    julien@ubuntu:~/0x02$ ./5-sign
  
 Repo:
 
@@ -141,10 +151,12 @@ Write a function that computes the absolute value of an integer.
     FYI: The standard library provides a similar function: abs. Run man abs to learn more.
 
 Compile:
-<code>julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 6-main.c 6-abs.c -o 6-abs</code>
+
+    julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 6-main.c 6-abs.c -o 6-abs
 
 Check output:
-<code>julien@ubuntu:~/0x02$ ./6-abs</code>
+
+    julien@ubuntu:~/0x02$ ./6-abs
 
 Repo:
 
@@ -163,10 +175,12 @@ Write a function that prints the last digit of a number.
     Returns the value of the last digit
 
 Compile:
-julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 7-main.c 7-print_last_digit.c -o 7-last_digit</code>
+
+    julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 7-main.c 7-print_last_digit.c -o 7-last_digit
 
 Check output:
-<code>julien@ubuntu:~/0x02$ ./7-last_digit</code>
+
+    julien@ubuntu:~/0x02$ ./7-last_digit
 
 Repo:
 
@@ -201,9 +215,9 @@ Write a function that prints the 9 times table, starting with 0.
     Format: see example
 
 Compile:
-<code>julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 9-main.c 9-times_table.c -o 9-times_table</code>
 
-<code>julien@ubuntu:~/0x02$ ./9-times_table | cat -e</code>
+    julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 9-main.c 9-times_table.c -o 9-times_table
+    julien@ubuntu:~/0x02$ ./9-times_table | cat -e
  
 Repo:
 
@@ -221,10 +235,12 @@ Write a function that adds two integers and returns the result.
     Prototype: int add(int, int);
 
 Comipile:
-<code>julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 10-main.c 10-add.c -o 10-add</code>
+
+    julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 10-main.c 10-add.c -o 10-add
 
 Check output:
-<code>julien@ubuntu:~/0x02$ ./10-add</code>
+
+    julien@ubuntu:~/0x02$ ./10-add
 
 Repo:
 
@@ -247,11 +263,13 @@ Write a function that prints all natural numbers from n to 98, followed by a new
     You are allowed to use the standard library
 
 Compile:
-<code>julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 11-main.c 11-print_to_98.c -o 11-98</code>
+
+    julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 11-main.c 11-print_to_98.c -o 11-98
 
 
 Check output:
-<code>julien@ubuntu:~/0x02$ ./11-98</code>
+
+    julien@ubuntu:~/0x02$ ./11-98
 
 Repo:
 
@@ -261,7 +279,7 @@ Repo:
     
 
 
-### Task 12. The World looks like a multiplication-table, or a mathematical equation, which, turn it how you will, balances itself
+### Task 12
 #advanced
 
 Write a function that prints the n times table, starting with 0.
@@ -271,10 +289,12 @@ Write a function that prints the n times table, starting with 0.
     Format: see example
 
 Compile:
-<code>julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 100-main.c 100-times_table.c -o 100-times_table</code>
+
+    julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 100-main.c 100-times_table.c -o 100-times_table
 
 Check output:
-<code>julien@ubuntu:~/0x02$ ./100-times_table</code>
+
+    julien@ubuntu:~/0x02$ ./100-times_table
  
 Repo:
 
