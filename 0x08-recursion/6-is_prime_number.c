@@ -3,7 +3,7 @@
 int actual_prime(int n, int a);
 
 /**
- * _is_prime_number - check if n is prime number
+ * is_prime_number - check if n is prime number
  * @n: input n to check
  * Return: 1 (n is prime number), 0 (n is not prime number)
  */
