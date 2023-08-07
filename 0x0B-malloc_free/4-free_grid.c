@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlid.h>
+#include <stdlib.h>
 
 /**
  * free_grid - frees 2d array and memory of grid
