@@ -1,5 +1,9 @@
 # 0x09. C - Static libraries
 
+## General
+What is a static library, how does it work, how to create one, and how to use it
+Basic usage of <code>ar</code>, <code>ranlib<code>, <code>nm</code>
+
 ## Tasks
 ### Task 0
 #mandatory
@@ -28,9 +32,7 @@ Create the static library libmy.a containing all the functions listed below:
     char *_strstr(char *haystack, char *needle);
     If you haven’t coded all of the above functions create empty ones with the right prototype.
 
-Command to run after all has been set up:
-
-    nm libmy.a 
+Command to run after all has been set up: <code>nm libmy.a</code>
 
 Create this <code>main.c</code> file after you're done:
 
@@ -46,9 +48,7 @@ Thereafter, run this command to produce the quote file:
 
     gcc -std=gnu89 main.c -L. -lmy -o quote
 
-To test for the correct quote file contents, run this command:
-
-    ./quote
+To test for the correct quote file contents, run this command: <code>./quote</code>
 
 and this should be th output from that command:
 
