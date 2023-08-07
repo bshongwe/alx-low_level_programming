@@ -1,5 +1,10 @@
 # 0x0A. C - argc, argv
 
+## General
+How to use arguments passed to your program
+What are two prototypes of main that you know of, and in which case do you use one or the other
+How to use __attribute__((unused)) or (void) to compile functions with unused variables or parameters
+
 ## Tasks
 ### Task 0
 #mandatory
@@ -13,9 +18,7 @@ Compile command:
 
     gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-whatsmyname.c -o mynameis
 
-Check compiled output:
-
-    ./mynameis 
+Check compiled output: <code>./mynameis</code>
 
 Repo:
 
@@ -34,9 +37,7 @@ Compile command:
 
     gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-args.c -o nargs
 
-Check output:
-
-    ./nargs 
+Check output: <code>./nargs</code>
 
 Test-check 1: <code>./nargs hello</code>
 Output: <code>1</code>
@@ -66,13 +67,9 @@ Compile command:
 
     gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-args.c -o args
 
-Check output:
+Check output: <code>./args</code>
 
-    ./args 
-
-Test-check:
-
-    ./args You can do anything, but not everything.
+Test-check: <code>./args You can do anything, but not everything.</code>
 
 Repo:
 
@@ -94,9 +91,7 @@ Compile command:
 
     gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-mul.c -o mul
 
-Test-check:
-
-    ./mul 2 3
+Test-check: <code>./mul 2 3</code>
 Output: <code>6</code>
 
 Test 1: <code>./mul 2 -3</code>
@@ -168,9 +163,7 @@ Compile:
 
     gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-change.c -o change
 
-Test-check:
-
-    ./change 
+Test-check: <code>./change</code>
 Output: <code>Error</code>
 
 Test 1: <code>./change 10</code>
