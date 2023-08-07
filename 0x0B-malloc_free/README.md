@@ -1,5 +1,11 @@
 # 0x0B. C - malloc, free
 
+## General
+    What is the difference between automatic and dynamic allocation
+    What is malloc and free and how to use them
+    Why and when use malloc
+    How to use valgrind to check for memory leak
+
 ## Tasks
 ### Tasks 0
 #mandatory
@@ -10,9 +16,7 @@ Write a function that creates an array of chars, and initializes it with a speci
 -  Returns NULL if size = 0
 -  Returns a pointer to the array, or NULL if it fails
 
-Testing file:
-
-    0-main.c
+Testing file: <code>0-main.c</code>
 
 Comiple checkout command:
 
