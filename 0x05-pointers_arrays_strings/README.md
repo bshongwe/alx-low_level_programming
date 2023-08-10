@@ -1,19 +1,25 @@
 # 0x05. C - Pointers, arrays and strings
 
+## General
+    What are pointers and how to use them
+    What are arrays and how to use them
+    What are the differences between pointers and arrays
+    How to use strings and how to manipulate them
+    Scope of variables
+
 ## Tasks
 ### Task 0
 #mandatory
+
 Write a function that takes a pointer to an int as parameter and updates the value it points to to 98.
 
     Prototype: void reset_to_98(int *n);
 
 Compile:
 
-    julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-reset_to_98.c -o 0-98
+    gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-reset_to_98.c -o 0-98
 
-Check printout:
-
-    julien@ubuntu:~/0x05$ ./0-98
+Check printout: <code>./0-98</code>
 
 Repo:
 
@@ -24,17 +30,16 @@ Repo:
 
 ### Task 1
 #mandatory
+
 Write a function that swaps the values of two integers.
 
     Prototype: void swap_int(int *a, int *b);
 
 Compile:
 
-    julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-swap.c -o 1-swap
+    gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-swap.c -o 1-swap
 
-Check printout:
-
-    julien@ubuntu:~/0x05$ ./1-swap
+Check printout: <code>./1-swap</code>
 
 Repo:
 
@@ -45,6 +50,7 @@ Repo:
 
 ### Task 2
 #mandatory
+
 Write a function that returns the length of a string.
 
     Prototype: int _strlen(char *s);
@@ -52,11 +58,9 @@ FYI: The standard library provides a similar function: strlen. Run man strlen to
 
 Compile:
 
-    julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-strlen.c -o 2-strlen
+    gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-strlen.c -o 2-strlen
 
-Check printout:
-
-    julien@ubuntu:~/0x05$ ./2-strlen
+Check printout: <code>./2-strlen</code>
 
 Repo:
 
@@ -67,6 +71,7 @@ Repo:
 
 ### Task 3
 #mandatory
+
 Write a function that prints a string, followed by a new line, to stdout.
 
     Prototype: void _puts(char *str);
@@ -74,11 +79,9 @@ FYI: The standard library provides a similar function: puts. Run man puts to lea
 
 Compile:
 
-    julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 3-main.c 3-puts.c -o 3-puts
+    gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 3-main.c 3-puts.c -o 3-puts
 
-Check printout:
-
-    julien@ubuntu:~/0x05$ ./3-puts
+Check printout: <code>./3-puts</code>
 
 Repo:
 
@@ -89,17 +92,16 @@ Repo:
 
 ### Taks 4
 #mandatory
+
 Write a function that prints a string, in reverse, followed by a new line.
 
     Prototype: void print_rev(char *s);
 
 Compile:
 
-    julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 4-main.c 4-print_rev.c -o 4-print_rev
+    gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 4-main.c 4-print_rev.c -o 4-print_rev
 
-Check printout:
-
-    julien@ubuntu:~/0x05$ ./4-print_rev
+Check printout: <code>./4-print_rev</code>
 
 Repo:
 
@@ -110,17 +112,16 @@ Repo:
 
 ### Task 5
 #mandatory
+
 Write a function that reverses a string.
 
     Prototype: void rev_string(char *s);
 
 Compile:
 
-    julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-main.c 5-rev_string.c -o 5-rev_string
+    gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-main.c 5-rev_string.c -o 5-rev_string
 
-Check printout:
-
-    julien@ubuntu:~/0x05$ ./5-rev_string
+Check printout: <code>./5-rev_string</code>
  
 Repo:
 
@@ -131,17 +132,16 @@ Repo:
 
 ### Task 6
 #mandatory
+
 Write a function that prints every other character of a string, starting with the first character, followed by a new line.
 
     Prototype: void puts2(char *str);
 
 Compile:
 
-    julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 6-main.c 6-puts2.c -o 6-puts2
+    gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 6-main.c 6-puts2.c -o 6-puts2
 
-Check printout:
-
-    julien@ubuntu:~/0x05$ ./6-puts2
+Check printout: <code>./6-puts2</code>
 
 Repo:
 
@@ -152,6 +152,7 @@ Repo:
 
 ### Task 7
 #mandatory
+
 Write a function that prints half of a string, followed by a new line.
 
     Prototype: void puts_half(char *str);
@@ -160,11 +161,9 @@ Write a function that prints half of a string, followed by a new line.
 
 Compile:
 
-    julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 7-main.c 7-puts_half.c -o 7-puts_half
+    gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 7-main.c 7-puts_half.c -o 7-puts_half
 
-Check printout:
-
-    julien@ubuntu:~/0x05$ ./7-puts_half
+Check printout: <code>./7-puts_half</code>
 
 Repo:
 
@@ -175,6 +174,7 @@ Repo:
 
 ### Task 8
 #mandatory
+
 Write a function that prints n elements of an array of integers, followed by a new line.
 
     Prototype: void print_array(int *a, int n);
@@ -185,11 +185,9 @@ Write a function that prints n elements of an array of integers, followed by a n
 
 Compile:
 
-    julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 8-main.c 8-print_array.c -o 8-print_array
+    gcc -Wall -pedantic -Werror -Wextra -std=gnu89 8-main.c 8-print_array.c -o 8-print_array
 
-Check printout:
-
-    julien@ubuntu:~/0x05$ ./8-print_array
+Check printout: <code>./8-print_array</code>
 
 Repo:
 
@@ -200,6 +198,7 @@ Repo:
 
 ### Task 9
 #mandatory
+
 Write a function that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
 
     Prototype: char *_strcpy(char *dest, char *src);
@@ -208,11 +207,9 @@ FYI: The standard library provides a similar function: strcpy. Run man strcpy to
 
 Compile:
 
-    julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 9-main.c 9-strcpy.c -o 9-strcpy
+    gcc -Wall -pedantic -Werror -Wextra -std=gnu89 9-main.c 9-strcpy.c -o 9-strcpy
 
-Check printout:
-
-    julien@ubuntu:~/0x05$ ./9-strcpy
+Check printout: <code>./9-strcpy</code>
  
 Repo:
 
@@ -223,6 +220,7 @@ Repo:
 
 ### Task 10
 #advanced
+
 Write a function that convert a string to an integer.
 
     Prototype: int _atoi(char *s);
@@ -237,11 +235,9 @@ FYI: The standard library provides a similar function: atoi. Run man atoi to lea
 
 Compile:
 
-    julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 -fsanitize=signed-integer-overflow 100-main.c 100-atoi.c -o 100-atoi
+    gcc -Wall -pedantic -Werror -Wextra -std=gnu89 -fsanitize=signed-integer-overflow 100-main.c 100-atoi.c -o 100-atoi
 
-Check printout:
-
-    julien@ubuntu:~/0x05$ ./100-atoi
+Check printout: <code>./100-atoi</code>
 
 Repo:
 
@@ -252,6 +248,7 @@ Repo:
 
 ### 11
 #advanced
+
 Create a program that generates random valid passwords for the program 101-crackme.
 
     You are allowed to use the standard library

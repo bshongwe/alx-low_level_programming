@@ -1,8 +1,14 @@
 # 0x07. C - Even more pointers, arrays and strings
 
+## General
+    What are pointers to pointers and how to use them
+    What are multidimensional arrays and how to use them
+    What are the most common C standard library functions to manipulate strings
+
 ## Tasks
 ### Task 0
 #mandatory
+
 Write a function that fills memory with a constant byte.
 
     Prototype: char *_memset(char *s, char b, unsigned int n);
@@ -19,6 +25,7 @@ Repo:
 
 ### Task 1
 #mandatory
+
 Write a function that copies memory area.
 
     Prototype: char *_memcpy(char *dest, char *src, unsigned int n);
@@ -35,6 +42,7 @@ Repo:
 
 ### Task 2
 #mandatory
+
 Write a function that locates a character in a string.
 
     Prototype: char *_strchr(char *s, char c);
@@ -50,6 +58,7 @@ Repo:
 
 ### Task 3
 #mandatory
+
 Write a function that gets the length of a prefix substring.
 
     Prototype: unsigned int _strspn(char *s, char *accept);
@@ -65,6 +74,7 @@ Repo:
 
 ### Task 4
 #mandatory
+
 Write a function that searches a string for any of a set of bytes.
 
     Prototype: char *_strpbrk(char *s, char *accept);
@@ -81,6 +91,7 @@ Repo:
 
 ### Task 5
 #mandatory
+
 Write a function that locates a substring.
 
     Prototype: char *_strstr(char *haystack, char *needle);
@@ -97,6 +108,7 @@ Repo:
 
 ### Task 6
 #mandatory
+
 Write a function that prints the chessboard.
 
     Prototype: void print_chessboard(char (*a)[8]);
@@ -110,6 +122,7 @@ Repo:
 
 ### Task 7
 #mandatory
+
 Write a function that prints the sum of the two diagonals of a square matrix of integers.
 
     Prototype: void print_diagsums(int *a, int size);
@@ -125,6 +138,7 @@ Repo:
 
 ### Task 8
 #advanced
+
 Write a function that sets the value of a pointer to a char.
 
     Prototype: void set_string(char **s, char *to);
@@ -138,6 +152,7 @@ Repo:
 
 ### Task 9
 #advanced
+
 Create a file that contains the password for the crackme2 executable. Find it in the link below:
 
     https://github.com/alx-tools/0x06.c/blob/master/crackme2

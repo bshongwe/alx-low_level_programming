@@ -1,8 +1,16 @@
-# 0x06-pointers_arrays_strings
+# 0x06. C - More pointers, arrays and strings
+
+## General
+    What are pointers and how to use them
+    What are arrays and how to use them
+    What are the differences between pointers and arrays
+    How to use strings and how to manipulate them
+    Scope of variables
 
 ## Tasks
 ### Task 0
 #mandatory
+
 Write a function that concatenates two strings.
 
     Prototype: char *_strcat(char *dest, char *src);
@@ -16,8 +24,10 @@ Repo:
     Directory: 0x06-pointers_arrays_strings
     File: 0-strcat.c
    
+
 ### Task 1
 #mandatory
+
 Write a function that concatenates two strings.
 
     Prototype: char *_strncat(char *dest, char *src, int n);
@@ -36,6 +46,7 @@ Repo:
 
 ### Task 2
 #mandatory
+
 Write a function that copies a string.
 
     Prototype: char *_strncpy(char *dest, char *src, int n);
@@ -51,6 +62,7 @@ Repo:
 
 ### Task 3. strcmp
 #mandatory
+
 Write a function that compares two strings.
 
     Prototype: int _strcmp(char *s1, char *s2);
@@ -66,6 +78,7 @@ Repo:
 
 ### Task 4
 #mandatory
+
 Write a function that reverses the content of an array of integers.
 
     Prototype: void reverse_array(int *a, int n);
@@ -80,6 +93,7 @@ Repo:
 
 ### Task 5
 #mandatory
+
 Write a function that changes all lowercase letters of a string to uppercase.
 
     Prototype: char *string_toupper(char *);
@@ -93,6 +107,7 @@ Repo:
 
 ### Task 6
 #mandatory
+
 Write a function that capitalizes all words of a string.
 
     Prototype: char *cap_string(char *);
@@ -107,6 +122,7 @@ Repo:
 
 ### Task 7
 #mandatory
+
 Write a function that encodes a string into 1337.
 
     Letters a and A should be replaced by 4
@@ -130,6 +146,7 @@ Repo:
 
 ### Task 8
 #advanced
+
 Write a function that encodes a string using rot13.
 
     Prototype: char *rot13(char *);
@@ -147,6 +164,7 @@ Repo:
 
 ### Task 9
 #advanced
+
 Write a function that prints an integer.
 
     Prototype: void print_number(int n);
@@ -190,6 +208,7 @@ Repo:
 
 ### Task 11
 #advanced
+
 Write a function that adds two numbers.
 
     Prototype: char *infinite_add(char *n1, char *n2, char *r, int size_r);
@@ -211,6 +230,7 @@ Repo:
 
 ### Task 12
 #advanced
+
 Write a function that prints a buffer.
 
     Prototype: void print_buffer(char *b, int size);
@@ -229,3 +249,5 @@ Repo:
     GitHub repository: alx-low_level_programming
     Directory: 0x06-pointers_arrays_strings
     File: 104-print_buffer.c
+
+
