@@ -77,6 +77,7 @@ Write a function that allocates memory for an array, using malloc.
 -  The memory is set to zero
 -  If nmemb or size is 0, then _calloc returns NULL
 -  If malloc fails, then _calloc returns NULL
+
 FYI: The standard library provides a different function: calloc. Run man calloc to learn more.
 
 Compile checkout: <code>gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-calloc.c -o 2-calloc</code>
@@ -145,6 +146,7 @@ Write a function that reallocates a memory block using malloc and free
 -  If ptr is NULL, then the call is equivalent to malloc(new_size), for all values of old_size and new_size
 -  If new_size is equal to zero, and ptr is not NULL, then the call is equivalent to free(ptr). Return NULL
 -  Don’t forget to free ptr when it makes sense
+
 FYI: The standard library provides a different function: realloc. Run man realloc to learn more.
 
 compile checkout: <code>gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-main.c 100-realloc.c -o 100-realloc</code>
