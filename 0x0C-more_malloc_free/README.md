@@ -22,14 +22,18 @@ Write a function that allocates memory using malloc.
 -  if malloc fails, the malloc_checked function should cause normal process termination with a status value of 98
 
 Compile checkout: <code>gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-malloc_checked.c -o a</code>
+
 Test checkout: <code>./a </code>
+
 Output expected (only for NULL):
 
     0x1e39010
     0x1e39830
     0x7f31f6c19010
 
+
 Test 1: <code>echo $?</code>
+
 Output expected: <code>98</code>
 
 Repo:
@@ -53,6 +57,7 @@ Write a function that concatenates two strings.
 Compile checkout: <code>gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-string_nconcat.c -o 1-string_nconcat</code>
 
 Test checkout: <code>./1-string_nconcat</code>
+
 Output expected: <code>Best School</code>
 
 Repo:
@@ -77,6 +82,7 @@ FYI: The standard library provides a different function: calloc. Run man calloc 
 Compile checkout: <code>gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-calloc.c -o 2-calloc</code>
 
 Test checkout: <code>./2-calloc</code>
+
 Output:
 
     0x42 0x65 0x73 0x74 0x20 0x53 0x63 0x68 0x6f 0x6f
@@ -109,7 +115,9 @@ Write a function that creates an array of integers.
 -  If malloc fails, return NULL
 
 Compile checkout: <code>gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c 3-array_range.c -o 3-array_range</code>
+
 Test checkout: <code>./3-array_range</code>
+
 Output expected:
 
     0x00 0x01 0x02 0x03 0x04 0x05 0x06 0x07 0x08 0x09
@@ -140,6 +148,7 @@ Write a function that reallocates a memory block using malloc and free
 FYI: The standard library provides a different function: realloc. Run man realloc to learn more.
 
 compile checkout: <code>gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-main.c 100-realloc.c -o 100-realloc</code>
+
 Test checkout: <code>./100-realloc</code>
 
     0x62 0x62 0x62 0x62 0x62 0x62 0x62 0x62 0x62 0x62
@@ -176,6 +185,7 @@ Write a program that multiplies two positive numbers.
 Compile checkout: <code>gcc -Wall -pedantic -Werror -Wextra -std=gnu89 101-mul.c _putchar.c -o 101-mul</code>
 
 Test checkout: <code>./101-mul 10 98</code>
+
 Output expected: <code>980</code>
 
 Test 1:
