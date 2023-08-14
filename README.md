@@ -37,10 +37,8 @@ To run the Betty linter just with command betty <filename>:
 
 emacs or vi a new file called betty, and copy the script below:
 <code>#!/bin/bash</code>
--    Simply a wrapper script to keep you from having to use betty-style
--    and betty-doc separately on every item.
--    Originally by Tim Britton (@wintermanc3r), multiargument added by
--    Larry Madeo (@hillmonkey)
+-    Simply a wrapper script to keep you from having to use betty-style and betty-doc separately on every item.
+-    Originally by Tim Britton (@wintermanc3r), multiargument added by Larry Madeo (@hillmonkey)
 
 Once saved, exit file and change permissions to apply to all users with chmod a+x betty
 Move the betty file into /bin/ directory or somewhere else in your $PATH with sudo mv betty /bin/
@@ -62,4 +60,7 @@ You can now type betty <filename> to run the Betty linter!
     0x09. C - Static libraries
     0x0A. C - Argc, argv
     0x0B. C - Malloc free
+    0x0C. C - More malloc, free
+    0x0D. C - Preprocessor
+    0x0E. C - Structures, typedef
 
