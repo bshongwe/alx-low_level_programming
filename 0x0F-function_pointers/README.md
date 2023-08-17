@@ -194,6 +194,7 @@ Output format:
 Note: if you want to translate your opcodes to assembly instructions, you can use, for instance <code>udcli</code>.
 
 Compilation checkout: <code>gcc -std=gnu89 100-main_opcodes.c -o main</code>
+
 Test checkout: <code>./main 21</code>
 
 Creating object dump output file: <code>objdump -d -j.text -M intel main</code>
