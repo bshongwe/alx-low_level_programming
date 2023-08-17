@@ -6,7 +6,7 @@
  * @...: variable n params to calculate
  * Return: 0 (n == 0), otherwise sum of all params
  */
-int sum_them_all(const unsigned int n, ...);
+int sum_them_all(const unsigned int n, ...)
 {
 	va_list valist;
 	unsigned int i;
@@ -24,7 +24,7 @@ int sum_them_all(const unsigned int n, ...);
 		sum += va_arg(valist, int);
 	}
 
-	va_en(valist);
+	va_end(valist);
 
 	return (sum);
 }
