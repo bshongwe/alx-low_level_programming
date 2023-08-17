@@ -88,7 +88,7 @@ Write a program that performs simple operations.
 
 This task requires that you create four different files:
 
-#### File 1.   3-calc.h
+#### File 1: <code>3-calc.h</code>
 
 This file should contain all the function prototypes and data structures used by the program. You can use this structure:
 
@@ -114,7 +114,7 @@ This file should contain the 5 following functions (not more):
     op_mod: returns the remainder of the division of a by b. Prototype: int op_mod(int a, int b);
 
 
-#### File 2.   3-get_op_func.c
+#### File 2: <code>3-get_op_func.c</code>
 
 This file should contain the function that selects the correct function to perform the operation asked by the user. You’re not allowed to declare any other function.
 
@@ -143,7 +143,7 @@ You are only allowed to declare these two variables in this function:
     int i;
 
 
-#### File 3.   3-main.c
+#### File 3: <code>3-main.c</code>
 
 This file should contain your main function only.
 
@@ -185,7 +185,7 @@ Write a program that prints the opcodes of its own main function.
 
 Output format:
 -  the opcodes should be printed in hexadecimal, lowercase each opcode is two char long, listing ends with a new line
--  You are allowed to use <code>printf<code> and <code>atoi</code>
+-  You are allowed to use printf and atoi
 -  You have to use atoi to convert the argument to an int
 -  If the number of argument is not the correct one, print Error, followed by a new line, and exit with the status 1
 -  If the number of bytes is negative, print Error, followed by a new line, and exit with the status 2
