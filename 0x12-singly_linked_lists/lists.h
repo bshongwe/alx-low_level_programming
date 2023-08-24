@@ -2,6 +2,8 @@
 #define LIST_H
 
 #include <string.h>
+#include <stdlib.h>
+#include <stdio.h>
 
 /**
  * struct list_s - func for singly linked list
@@ -27,5 +29,6 @@ size_t list_len(const list_t *h);
 list_t *add_node(list_t **head, const char *str);
 int _strlen(const char *s);
 /* Task 3 */
+list_t *add_node_end(list_t **head, const char *str);
 
 #endif /* end of List_H file */
