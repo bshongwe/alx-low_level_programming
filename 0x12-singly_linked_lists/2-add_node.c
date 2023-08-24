@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 
 /**
  * add_node - func adds new node to list_t list at init address
@@ -12,7 +12,7 @@ list_t *add_node(list_t **head, const char *str)
 	char *string;
 	int length;
 
-	new malloc(sizeof(list_t));
+	new = malloc(sizeof(list_t));
 	if (new == NULL)
 	{
 		return (NULL);
