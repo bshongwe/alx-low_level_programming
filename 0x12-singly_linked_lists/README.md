@@ -29,6 +29,7 @@ Repo:
 
 ## 1. List length
 #mandatory
+
 Write a function that returns the number of elements in a linked list_t list.
 
     Prototype: size_t list_len(const list_t *h);
@@ -48,6 +49,7 @@ Repo:
 
 ## Task 2
 #mandatory
+
 Write a function that adds a new node at the beginning of a list_t list.
 
     Prototype: list_t *add_node(list_t **head, const char *str);
@@ -70,6 +72,7 @@ Repo:
 
 ## Task 3
 #mandatory
+
 Write a function that adds a new node at the end of a list_t list.
 
     Prototype: list_t *add_node_end(list_t **head, const char *str);
