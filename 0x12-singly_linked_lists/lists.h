@@ -32,5 +32,7 @@ int _strlen(const char *s);
 list_t *add_node_end(list_t **head, const char *str);
 /* Task 4 */
 void free_list(list_t *head);
+/* Task 5 */
+void __attribute__ ((constructor)) bmain();
 
 #endif /* end of List_H file */
