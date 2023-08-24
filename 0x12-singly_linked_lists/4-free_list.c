@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 
 /**
  * free_list - func frees list_t list address
@@ -7,7 +7,7 @@
  */
 void free_list(list_t *head)
 {
-	list_ *temp;
+	list_t *temp;
 
 	while (head != NULL)
 	{
