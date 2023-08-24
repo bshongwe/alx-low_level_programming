@@ -117,6 +117,8 @@ Repo:
 
 Write a function that prints You're beat! and yet, you must allow,\nI bore my house upon my back!\n before the main function is executed.
 
+N. B.: The prototype that I used was not provided byt the task. Thus, any other could've been used.
+
 You are allowed to use the printf function
 
 Test file: <code>100-main.c</code>
