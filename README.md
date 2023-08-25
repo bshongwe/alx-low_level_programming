@@ -65,4 +65,6 @@ You can now type betty <filename> to run the Betty linter!
     0x0E. C - Structures, typedef
     0x0F. C - Function pointers
     0x10. C - Variadic functions
+    0x11. C - printf        (note that this project is not in the repo, rather, has its own standalone repo)
+    0x12. C - Singly linked lists
 
