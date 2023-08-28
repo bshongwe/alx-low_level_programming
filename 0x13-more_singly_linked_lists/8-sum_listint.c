@@ -6,7 +6,7 @@
  * Return: all n data sum (Success), fail (NULL),
  * 0 (list is empty)
  */
-int sum_listint(listint_t *head);
+int sum_listint(listint_t *head)
 {
 	int sum_data;
 
