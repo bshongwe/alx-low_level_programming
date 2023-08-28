@@ -111,7 +111,7 @@ Test files: <code>4-main.c</code>
 
 Compile checout: <code>gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c 3-add_nodeint_end.c 0-print_listint.c 4-free_listint.c -o e</code>
 
-Test checkout: <code>./e</code>
+Test checkout: <code>valgrind ./e</code>
 
 Repo:
 
@@ -240,7 +240,7 @@ Write a function that deletes the node at index index of a listint_t linked list
 Test file: <code>10-main.c</code>
 Compile checkout: <code>gcc -Wall -pedantic -Werror -Wextra -std=gnu89 10-main.c 3-add_nodeint_end.c 0-print_listint.c 5-free_listint2.c 10-delete_nodeint.c -o k</code>
 
-Test checkout: <code>./k</code>
+Test checkout: <code>valgrind ./k</code>
  
 Repo:
 
@@ -264,7 +264,7 @@ Test file: <code>100-main.c</code>
 
 Compile checkout: <code>gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-main.c 3-add_nodeint_end.c 0-print_listint.c 5-free_listint2.c 100-reverse_listint.c -o l</code>
 
-Test checkout: <code>./l</code>
+Test checkout: <code>valgrind ./l</code>
 
 Repo:
 
