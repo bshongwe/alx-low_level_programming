@@ -5,7 +5,7 @@
  * @head: list head
  * Return: first node address pointer (SUccess), fail (NULL)
  */
-listint_t *reverse_listint(listint_t **head);
+listint_t *reverse_listint(listint_t **head)
 {
 	listint_t *n;
 	listint_t *p;
