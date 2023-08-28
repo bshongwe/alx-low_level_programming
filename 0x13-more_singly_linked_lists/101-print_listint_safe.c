@@ -8,19 +8,19 @@
 size_t print_listint_safe(const listint_t *head)
 {
 	size_t nodes_num = 0;
-	listp_t *hptr, *new, *add;
+	listp_t *hptr, *new_node, *add;
 
 	hptr = NULL;
 	while (head != NULL)
 	{
-		new = malloc(sizeof(listp_t));
+		new_node = malloc(sizeof(listp_t));
 
-		if (new == NULL)
+		if (new_node == NULL)
 			exit(98);
 
-		new->p = (void *)head;
-		new->next = hptr;
-		hptr = new;
+		new_node->p = (void *)head;
+		new_node->next = hptr;
+		hptr = new_node;
 
 		add = hptr;
 
@@ -45,14 +45,14 @@ size_t print_listint_safe(const listint_t *head)
 }
 
 /**
- * free_listp - func free linked list
+ * free_listp - func frees linked list
  * @head: list head
  * Return: void
  */
 void free_listp(listp_t **head)
 {
-	listp_t *curr;
 	listp_t *temp;
+	listp_t *curr;
 
 	if (head != NULL)
 	{
