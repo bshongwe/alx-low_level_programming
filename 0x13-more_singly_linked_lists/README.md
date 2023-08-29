@@ -346,3 +346,5 @@ Repo:
 
 ## N. B.
 I used an additional struct for the advanced tests
+
+I'm also trying to research on the inclusion and exclusion of main.h on the _putchar.c file since I did not use it anyways
