@@ -2,7 +2,7 @@
 
 /**
  * print_listint - func print all list elems
- * @h: first elmem on list
+ * @h: first elem on list
  * Return: nodes num (Success), fail (NULL)
  */
 size_t print_listint(const listint_t *h)
