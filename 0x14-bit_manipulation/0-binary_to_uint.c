@@ -22,7 +22,7 @@ unsigned int binary_to_uint(const char *b)
 		{
 			return (0);
 		}
-		sum_bin += (b[i] - '0') * power(2, len - i - 1);
+		sum_bin += (b[i] - '0') * power(2, length - i - 1);
 	}
 	return (sum_bin);
 }
