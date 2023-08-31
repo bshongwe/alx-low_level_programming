@@ -4,6 +4,9 @@
 /* Library addition */
 #include <stdio.h>
 
+/* _putchar.c */
+int _putchar(char c);
+
 /* Mandatory tasks prototypes */
 unsigned int binary_to_uint(const char *b);
 void print_binary(unsigned long int n);
