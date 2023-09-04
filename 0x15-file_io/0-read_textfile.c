@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * read_textfile - func reads text file, prints letters to POSIX
@@ -9,32 +10,36 @@
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int fd;
-	char *buffer;
-	ssize_t bytes_read, bytes_written;
+	char *buff;
+	ssize_t bytes_rd, bytes_wr;
 
 	if (filename == NULL)
 		return (0);
 
 	fd = open(filename, O_RDONLY);
+
 	if (fd == -1)
 		return (0);
 
-	buffer = malloc(sizeof(char) * letters + 1);
+	buff = malloc(sizeof(char) * letters + 1);
+
 	if (buffer == NULL)
 		return (0);
 
-	bytes_read = read(fd, buffer, letters);
+	bytes_rd = read(fd, buffer, letters);
+
 	if (bytes_read == -1)
 		return (0);
 
-	buffer[letters + 1] = '\0';
+	buff[letters + 1] = '\0';
 	close(fd);
 
-	bytes_written = write(STDOUT_FILENO, buffer, bytes_read);
+	bytes_wr = write(STDOUT_FILENO, buffer, bytes_read);
+
 	if (bytes_written == -1)
 		return (0);
 
-	free(buffer);
+	free(buff);
 
-	return (bytes_read);
+	return (bytes_rd);
 }
