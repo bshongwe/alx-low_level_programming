@@ -178,7 +178,7 @@ void elf_osabi(const unsigned char *buff)
 	if (buff[EI_OSABI] < 19)
 		printf("%s\n", os_table[(unsigned int) buff[EI_OSABI]]);
 	else
-		printf("<unknown: %x>\n", buffer[EI_OSABI]);
+		printf("<unknown: %x>\n", buff[EI_OSABI]);
 }
 
 /**
