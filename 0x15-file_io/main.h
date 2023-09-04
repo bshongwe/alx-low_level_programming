@@ -36,5 +36,6 @@ void elf_magic(const unsigned char *buff);
 void _read(int fd, char *buf, size_t count);
 void _close(int fd);
 int _strncmp(const char *s1, const char *s2, size_t n);
+void error_file(int file_from, int file_to, char *argv[]);
 
 #endif /* end of MAIN_H file */
