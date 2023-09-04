@@ -1,4 +1,5 @@
 #include "main.h"
+#include <math.h>
 
 /**
  * read_textfile - func reads text file and prints chars to stdout
