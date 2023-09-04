@@ -3,7 +3,7 @@
 /**
  * _strlen - func returns length of string
  * @s: input string
- * Return: length of string (SUccess)
+ * Return: length of string (Success)
  */
 int _strlen(char *s)
 {
