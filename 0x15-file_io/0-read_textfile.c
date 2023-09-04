@@ -4,7 +4,7 @@
  * read_textfile - func reads text file and prints chars to stdout
  * @filename: filename to read
  * @letters: chars to read
- * Return: number of chars read (Success), Error (0)
+ * Return: number of chars read (Success), error (0)
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
