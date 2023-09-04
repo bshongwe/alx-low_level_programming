@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * read_textfile - func reads text file and prints letters
- * @filename: filename to be read on memory
- * @letters: letters printed on memory
- * Return: number of letters (Success), fail (0)
+ * read_textfile - func reads text file and prints chars to stdout
+ * @filename: filename to read
+ * @letters: chars to read
+ * Return: number of chars read (Success), Error (0)
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
