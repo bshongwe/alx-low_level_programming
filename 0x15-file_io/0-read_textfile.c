@@ -1,11 +1,10 @@
 #include "main.h"
-#include <stdlib.h>
 
 /**
- * read_textfile - func reads text file, prints letters to POSIX
+ * read_textfile - func reads text file and prints letters
  * @filename: filename to be read on memory
  * @letters: letters printed on memory
- * Return: letters and file read and printed (Success), fail (0)
+ * Return: number of letters (Success), fail (0)
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
@@ -23,10 +22,10 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	buff = malloc(sizeof(char) * letters + 1);
 
-	if (buffer == NULL)
+	if (buff == NULL)
 		return (0);
 
-	bytes_rd = read(fd, buffer, letters);
+	bytes_rd = read(fd, buff, letters);
 
 	if (bytes_read == -1)
 		return (0);
@@ -34,7 +33,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	buff[letters + 1] = '\0';
 	close(fd);
 
-	bytes_wr = write(STDOUT_FILENO, buffer, bytes_read);
+	bytes_wr = write(STDOUT_FILENO, buff, bytes_rd);
 
 	if (bytes_written == -1)
 		return (0);
