@@ -69,4 +69,7 @@ You can now type betty <filename> to run the Betty linter!
     📌️ 0x11. C - printf [Team Collaboration Project: (https://github.com/bshongwe/printf) - completed on the 22nd of August, 2023]
     📌️ 0x12. C - Singly linked lists
     📌️ 0x13. C - More singly linked lists
+    📌️ 0x14. C - Bit manipulation
+    📌️ 0x15. C - File I/O
+    📌️ 0x16. C - Simple Shell (has it own stand-alone repo, but part of the module)
 
