@@ -77,7 +77,7 @@ Repo:
     File: 1-create_file.c
     
 
-## Task 2. Speak gently, she can hear
+## Task 2
 mandatory
 
 Write a function that appends text at the end of a file.
