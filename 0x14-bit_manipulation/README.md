@@ -30,6 +30,7 @@ Prototype: unsigned int binary_to_uint(const char *b);
   -  or 1 if b is NULL
 
 Compilation checkout: <code>gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-binary_to_uint.c -o a</code>
+
 Test checkout: <code>./a</code>
 
 Repo:
@@ -50,6 +51,7 @@ Prototype: void print_binary(unsigned long int n);
 -  You are not allowed to use the % or / operators
 
 Compilation checkout: <code>gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-print_binary.c _putchar.c -o b</code>
+
 Test checkout: <code>./b</code>
 
 Repo:
@@ -69,6 +71,7 @@ Prototype: int get_bit(unsigned long int n, unsigned int index);
 -  Returns: the value of the bit at index index or -1 if an error occured
 
 Compilation checout: <code>gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-get_bit.c -o c </code>
+
 Test checkout: <code>./c</code>
 
 Repo:
@@ -88,6 +91,7 @@ Prototype: int set_bit(unsigned long int *n, unsigned int index);
 -  Returns: 1 if it worked, or -1 if an error occurred
 
 Compilation checkout: <code>gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c 3-set_bit.c -o d</code>
+
 Test checkout: <code>./d</code>
 
 Repo:
@@ -107,6 +111,7 @@ Prototype: int clear_bit(unsigned long int *n, unsigned int index);
 -  Returns: 1 if it worked, or -1 if an error occurred
 
 Compilation checkout: <code>gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c 4-clear_bit.c -o e</code>
+
 Test checkout: <code>./e</code>
  
 Repo:
@@ -125,6 +130,7 @@ Prototype: unsigned int flip_bits(unsigned long int n, unsigned long int m);
 -  You are not allowed to use the % or / operators
 
 Compilation checkout: <code>gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-main.c 5-flip_bits.c -o f</code>
+
 Test checkout: <code>./f</code>
  
 Repo:
@@ -143,6 +149,7 @@ Prototype: int get_endianness(void);
 -  Returns: 0 if big endian, 1 if little endian
 
 Compilation checkout: <code>gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-main.c 100-get_endianness.c -o h</code>
+
 Test checkout: <code>./h</code>
 
 Repo:
