@@ -29,6 +29,9 @@ Prototype: unsigned int binary_to_uint(const char *b);
   -  or more chars in the string b that is not 0
   -  or 1 if b is NULL
 
+Compilation checkout: <code>gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-binary_to_uint.c -o a</code>
+Test checkout: <code>./a</code>
+
 Repo:
 
     GitHub repository: alx-low_level_programming
