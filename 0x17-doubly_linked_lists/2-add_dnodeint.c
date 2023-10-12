@@ -4,7 +4,7 @@
  * add_dnodeint - func adds new node at dlistint_t list
  * @head: list head pointer
  * @n: elem value
- * Return: new elem memory address (pointer)
+ * Return: new elem address (Success), or fail (NULL)
  */
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
