@@ -72,4 +72,7 @@ You can now type betty <filename> to run the Betty linter!
     📌️ 0x14. C - Bit manipulation
     📌️ 0x15. C - File I/O
     📌️ 0x16. C - Simple Shell (has it own stand-alone repo, but part of the module)
+    📌️ 0x17. C - Doubly linked lists
+    📌️ 0x18. C - Dynamic libraries
+    📍️ 0x19. C - Stacks, Queues - LIFO, FIFO (upcoming partner project)
 
