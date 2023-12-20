@@ -14,6 +14,8 @@
 -  All your files should end with a new line
 -  A README.md file, at the root of the folder of the project, is mandatory
 
+<img src="giphy-2.gif" />
+
 # Tasks
 ## Task 0. make -f 0-Makefile
 mandatory
