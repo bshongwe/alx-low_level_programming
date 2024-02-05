@@ -25,5 +25,9 @@ typedef struct listint_s
 
 /* Prototypes */
 int linear_search(int *array, size_t size, int value);
+int binary_search(int *array, size_t size, int value);
+
+/* Helpers */
+int recursive_search(int *array, size_t size, int value);
 
 #endif /* end of _SORTING_ALGOS_H_ file */
