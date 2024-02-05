@@ -4,7 +4,7 @@
 /* Libraries */
 #include <stdio.h>
 
-/* Struct */
+/* Structs */
 
 /**
  * struct listint_s - singly linked list
@@ -14,7 +14,7 @@
  * @next: Pointer to the next node
  *
  * Description: singly linked list node structure
- * for Holberton project
+ * for ALX Hoberton project
  */
 typedef struct listint_s
 {
@@ -22,6 +22,7 @@ typedef struct listint_s
 	size_t index;
 	struct listint_s *next;
 } listint_t;
+
 
 /* Prototypes */
 int linear_search(int *array, size_t size, int value);
