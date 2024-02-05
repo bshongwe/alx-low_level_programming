@@ -34,5 +34,6 @@ int interpolation_search(int *array, size_t size, int value);
 /* Helpers */
 int recursive_search(int *array, size_t size, int value);
 int _binary_search(int *array, size_t left, size_t right, int value);
+int rec_search(int *array, size_t size, int value);
 
 #endif /* end of _SORTING_ALGOS_H_ file */
